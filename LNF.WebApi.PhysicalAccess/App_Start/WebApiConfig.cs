@@ -14,10 +14,6 @@ namespace LNF.WebApi.PhysicalAccess
 
         public static void Register(HttpConfiguration config)
         {
-            //var ctx = new WebContext(new WebContextFactory());
-            //var ioc = new IOC(ctx);
-            //ServiceProvider.Current = ioc.Resolver.GetInstance<IProvider>();
-
             // Web API configuration and services
             WebApp = new WebApp();
 
